@@ -70,7 +70,7 @@ export default function Home() {
             <>
               <div className="flex flex-row gap-4 relative items-center justify-center">
                 <Image src={DopeLogo} alt="Dope Logo" className="w-[80px] h-[80px] select-none" />
-                <h1 className="text-4xl font-bold select-none">Postcard Machine</h1>
+                <h1 className="text-4xl text-white font-bold select-none">Postcard Machine</h1>
               </div>
 
               <DopeButton onClick={() => generatePostcard('')} className="w-[200px] cursor-pointer bg-[#EA1D2E]">
