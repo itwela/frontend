@@ -13,6 +13,7 @@ export default function DopePostCard() {
         className="
         lg:w-[900px] lg:h-[600px]
         sm:w-[450px] sm:h-[300px]
+        aspect[3/2]
         bg-white rounded-lg">
             {postcard?.imageUrl && (
                 <Image src={postcard?.imageUrl} alt="Postcard" className="w-full h-full object-cover" width={1000} height={1000} />

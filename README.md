@@ -31,7 +31,6 @@ Before you begin, ensure you have:
 ### 1. Clone the Repository
 ```bash
 git clone <your-repo-url>
-cd DopePostcardProject
 ```
 
 ### 2. Install Dependencies
@@ -40,10 +39,6 @@ cd frontend
 npm install
 ```
 
-### 3. Set Up Convex
-```bash
-npx convex dev
-```
 
 ### 4. Configure Environment Variables
 Create a `.env.local` file in the frontend directory:
