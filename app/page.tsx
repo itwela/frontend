@@ -55,7 +55,7 @@ export default function Home() {
                   </div>
                 </div>
               ) : (
-                <div className="flex flex-col gap-8">
+                <div className="flex flex-col gap-8 h-max">
                   <div className="flex flex-row gap-8 relative items-center justify-center">
                     <DopePostCard />
                     <DopeConsole />
